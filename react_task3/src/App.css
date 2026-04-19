@@ -1,0 +1,194 @@
+.app-shell {
+  min-height: 100vh;
+  padding: 32px 16px;
+
+  background: linear-gradient(
+    135deg,
+    var(--accent) 0%,
+    color-mix(in srgb, var(--accent), blue 40%) 50%,
+    color-mix(in srgb, var(--accent), white 40%) 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: min(950px, 100%);
+  padding: 32px;
+
+  background: var(--bg);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  color: var(--text-h);
+}
+
+.card h1 {
+  margin-bottom: 24px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.product-form {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.product-form label {
+  display: grid;
+  gap: 8px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.product-form input[type='text'],
+.product-form input[type='number'] {
+  width: 100%;
+  padding: 12px 14px;
+
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
+
+  font-size: 15px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.product-form button {
+  width: fit-content;
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: var(--accent);
+  color: #fff;
+
+  cursor: pointer;
+  font-weight: 700;
+
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.product-form button:hover {
+  transform: translateY(-1px);
+  background: color-mix(in srgb, var(--accent), black 20%);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+thead th {
+  text-align: left;
+  padding: 14px 12px;
+
+  background: var(--accent-bg);
+  color: var(--text-h);
+
+  font-size: 14px;
+}
+
+tbody td {
+  padding: 14px 12px;
+  border-top: 1px solid var(--border);
+}
+
+tbody tr:nth-child(odd) {
+  background: var(--accent-bg);
+}
+
+tbody input {
+  width: 100%;
+  padding: 8px 10px;
+
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.actions button {
+  border: none;
+  border-radius: 10px;
+  padding: 8px 12px;
+
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.actions button:first-child {
+  background: var(--accent);
+  color: #fff;
+}
+
+.actions button:first-child:hover {
+  background: color-mix(in srgb, var(--accent), black 20%);
+}
+
+.actions button:last-child {
+  background: var(--danger);
+  color: #fff;
+}
+
+.actions button:last-child:hover {
+  background: color-mix(in srgb, var(--danger), black 20%);
+}
+
+.empty-row {
+  text-align: center;
+  padding: 24px 0;
+  color: var(--text);
+}
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.product-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.checkbox-row {
+  flex-direction: row;
+}
+
+@media (max-width: 820px) {
+  .product-form {
+    gap: 12px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 10px 8px;
+  }
+}
