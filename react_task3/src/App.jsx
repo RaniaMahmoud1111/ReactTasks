@@ -80,14 +80,13 @@ function App() {
     <div className="app-shell">
       <div className="card">
         <h1>Product List</h1>
-        {/* Parent → Child: passing props and callbacks */}
+      
         <ProductForm
           product={product}
           onChange={handleChange}
           onSubmit={handleSubmit}
         />
-
-        {/* Parent → Child: passing props and callbacks */}
+ 
         <ProductTable
           products={products}
           editingId={editingId}
