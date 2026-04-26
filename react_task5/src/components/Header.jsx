@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import  styles from '..//css/Header.css'
+import  styles from './css/Header.css'
 export default function Header() {
   const { pathname } = useLocation()
 
@@ -7,7 +7,6 @@ export default function Header() {
     { to: '/',        label: 'Home' },
     { to: '/products', label: 'Products' },
   ]
-
   return (
     <header className={styles.header}>
       <div className={styles['header-inner']}>

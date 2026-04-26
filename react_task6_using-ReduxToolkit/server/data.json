@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Smartphone jknj",
+      "price": "500"
+    },
+    {
+      "id": "3",
+      "name": "Headphones",
+      "price": 199.99
+    },
+    {
+      "name": "mouse",
+      "price": "999",
+      "id": "5hWI0LaZqH0"
+    },
+    {
+      "name": "sdfnksdfnsd",
+      "price": "10",
+      "id": "sKXG-w0r_BI"
+    },
+    {
+      "name": "dsfjdsjksd",
+      "price": "20",
+      "id": "bpW6tOtm4OQ"
+    },
+    {
+      "name": "dsds",
+      "price": "20",
+      "id": "oB0gN7utA3o"
+    },
+    {
+      "name": "Ali Saafan",
+      "price": "90",
+      "id": "BZFPzBuTEmI"
+    },
+    {
+      "name": "ascsddas",
+      "price": "50",
+      "id": "_m3q30A2M9I"
+    },
+    {
+      "name": "assdsaas",
+      "price": "589489",
+      "id": "m-qOhtGjZO4"
+    },
+    {
+      "name": "ldfkaslkdkasd",
+      "price": "4551",
+      "id": "TkdsmKOOfBU"
+    },
+    {
+      "name": "asfsdknsdjk",
+      "price": "82241",
+      "id": "Md5fumPSpik"
+    },
+    {
+      "name": "front ",
+      "price": "55",
+      "id": "hos_CGkU6B4"
+    },
+    {
+      "name": "Ui",
+      "price": "30",
+      "id": "2ViQvwbtvi0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

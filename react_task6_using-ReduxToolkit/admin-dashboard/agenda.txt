@@ -1,0 +1,5 @@
+lecture 6
+-- npm install react-redux react/toolkit 
+-- create configureStore
+-- useSelector()--> connect Store and get data {count}
+-- useDispatch()--> fire action {type: 'increase'}--dispatch
